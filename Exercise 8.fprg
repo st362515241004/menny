@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-04 08:18:37 PM"/>
+        <attribute name="created" value="VXNlcjtKSUItMDE3MDcwNTE4MTg7MjU2Mi0wOC0wNDswNzozMDozNCBQTTsyNTI3"/>
+        <attribute name="edited" value="VXNlcjtKSUItMDE3MDcwNTE4MTg7MjU2Mi0wOC0wNDswODoxODozNyBQTTsxOzI2NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="username" type="String" array="False" size=""/>
+            <declare name="password" type="String" array="False" size=""/>
+            <input variable="Username"/>
+            <input variable="Password"/>
+            <if expression="username==&quot;ntp&quot;">
+                <then>
+                    <if expression="password==&quot;0918&quot;">
+                        <then>
+                            <output expression="&quot;1. beer 75 THB&quot;" newline="True"/>
+                            <output expression="&quot;2.vodka 100 THB&quot;" newline="True"/>
+                            <output expression="&quot;3.wine 200 THB&quot;" newline="True"/>
+                            <output expression="&quot;4.soda 20 THB&quot;" newline="True"/>
+                            <output expression="&quot;5. ice 10 THB&quot;" newline="True"/>
+                            <declare name="cocktail" type="Integer" array="False" size=""/>
+                            <declare name="number" type="Integer" array="False" size=""/>
+                            <declare name="result" type="Integer" array="False" size=""/>
+                            <output expression="&quot;What do you want?&quot;" newline="True"/>
+                            <input variable="cocktail"/>
+                            <output expression="&quot;How many do you want?&quot;" newline="True"/>
+                            <input variable="number"/>
+                            <if expression="cocktail==1">
+                                <then>
+                                    <assign variable="result" expression="number*75"/>
+                                    <output expression="&quot;you order&quot;&amp;number&amp;&quot;of beer&quot;&amp;result&amp;&quot;THB&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="cocktail==2">
+                                        <then>
+                                            <assign variable="result" expression="number*100"/>
+                                            <output expression="&quot;you order&quot;&amp;number&amp;&quot;of vodka&quot;&amp;result&amp;&quot;THB&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="cocktail==3">
+                                                <then>
+                                                    <assign variable="result" expression="number*200"/>
+                                                    <output expression="&quot;you order&quot;&amp;number&amp;&quot;of wine&quot;&amp;result&amp;&quot;THB&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="cocktail==4">
+                                                        <then>
+                                                            <assign variable="result" expression="number*20"/>
+                                                            <output expression="&quot;you order&quot;&amp;number&amp;&quot;of soda&quot;&amp;result&amp;&quot;THB&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="cocktail==5">
+                                                                <then>
+                                                                    <assign variable="result" expression="number*10"/>
+                                                                    <output expression="&quot;you order&quot;&amp;number&amp;&quot;of ice&quot;&amp;result&amp;&quot;THB&quot;" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;error&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;error&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
