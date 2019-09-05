@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-#นาย พรชัย จันมิตร 362515241011 EE36241N
+#นาย ณัฐภัทร บุญรอด 362515241004 EE36241N
 import math
 a = float(input("Fill Out a :"))
 b = float(input("Fill Out b :"))
