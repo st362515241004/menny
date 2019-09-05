@@ -4,6 +4,7 @@
 # In[14]:
 
 
+#นาย ณัฐภัทร บุญรอด 362515241004 EE36241N
 score = float(input("Fill out score :"))
 if score >100:
     print("ERROR")
