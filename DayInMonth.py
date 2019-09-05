@@ -4,6 +4,7 @@
 # In[17]:
 
 
+#นาย ณัฐภัทร บุญรอด 362515241004 EE36241N
 month = int(input("Fill out month :"))
 year = int (input("Fill out year :")) 
 years = year-543
