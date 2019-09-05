@@ -4,6 +4,7 @@
 # In[9]:
 
 
+#นาย ณัฐภัทร บุญรอด 362515241004 EE36241N
 sum = 0
 count = 0
 n = float(input("enter number"))
