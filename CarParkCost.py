@@ -4,6 +4,7 @@
 # In[45]:
 
 
+#นาย ณัฐภัทร บุญรอด 362515241004 EE36241N
 import math
 print("in-out 7:00 - 23:00")
 hoursin = int(input("Fill out hours in :"))
