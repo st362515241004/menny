@@ -4,6 +4,7 @@
 # In[8]:
 
 
+#นาย ณัฐภัทร บุญรอด 362515241004 EE36241N
 import math
 x = float(input())
 x = math.radians(x%360)
