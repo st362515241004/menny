@@ -4,6 +4,7 @@
 # In[5]:
 
 
+#นาย ณัฐภัทร บุญรอด 362515241004 EE36241N
 n=0
 for w in input().strip() :
     if w.isupper():
