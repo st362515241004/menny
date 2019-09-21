@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 09:41:19 PM"/>
+        <attribute name="created" value="QWRtaW47TEFQVE9QLUNLSE1JQUUzOzIwMTktMDktMjA7MDk6NDI6MTMgUE07MjgzMw=="/>
+        <attribute name="edited" value="QWRtaW47TEFQVE9QLUNLSE1JQUUzOzIwMTktMDktMjA7MDk6NDg6MzAgUE07NDsyOTQ5"/>
+        <attribute name="edited" value="VXNlcjtKSUItMDE3MDcwNTE4MTg7MjU2Mi0wOS0yMTswOTo0MToxOSBQTTsxOzI2NDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="age" expression="a - b"/>
+            <output expression="age" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

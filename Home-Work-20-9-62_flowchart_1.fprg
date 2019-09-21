@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 09:40:39 PM"/>
+        <attribute name="created" value="QWRtaW47TEFQVE9QLUNLSE1JQUUzOzIwMTktMDktMjA7MDk6MjA6NDAgUE07MjgyOQ=="/>
+        <attribute name="edited" value="QWRtaW47TEFQVE9QLUNLSE1JQUUzOzIwMTktMDktMjA7MDk6MjY6MzAgUE07NTsyOTQ2"/>
+        <attribute name="edited" value="VXNlcjtKSUItMDE3MDcwNTE4MTg7MjU2Mi0wOS0yMTswOTo0MDozOSBQTTsxOzI2NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="money" type="Real" array="False" size=""/>
+            <declare name="vat" type="Real" array="False" size=""/>
+            <input variable="money"/>
+            <assign variable="vat" expression="money*(7/100)"/>
+            <output expression="vat" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
